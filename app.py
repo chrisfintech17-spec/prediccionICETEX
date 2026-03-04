@@ -7,7 +7,7 @@ from sklearn.preprocessing import OneHotEncoder
 svr_model = joblib.load('svr_model.joblib')
 
 # Load the encoded feature columns list
-encoder_feature_columns_v2 = joblib.load('encoded_feature_columns (1).joblib')
+encoder_feature_columns_v2 = joblib.load('encoded_feature_columns.joblib')
 
 def main():
     st.title("Prediction App")
