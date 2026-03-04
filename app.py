@@ -4,10 +4,10 @@ import pandas as pd
 from sklearn.preprocessing import OneHotEncoder
 
 # Load the pre-trained SVR model
-svr_model = joblib.load('/content/svr_model.joblib')
+svr_model = joblib.load('/svr_model.joblib')
 
 # Load the encoded feature columns list
-encoder_feature_columns_v2 = joblib.load('/content/encoded_feature_columns (1).joblib')
+encoder_feature_columns_v2 = joblib.load('/encoded_feature_columns (1).joblib')
 
 def main():
     st.title("Prediction App")
